@@ -1,0 +1,27 @@
+{
+  "name": "clubhouse-game",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "Modules": {
+        "$className": "Folder",
+        "$path": "src/Modules"
+      }
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "ServerRuntime": {
+        "$path": "src/Server/ServerRuntime"
+      }
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "ClientRuntime": {
+          "$path": "src/Client/ClientRuntime"
+        }
+      }
+    }
+  }
+}
